@@ -7,7 +7,11 @@ jobs:
       - name: print greetings
         run: echo " hello welcome to first action "
       - name: print good bye
-        run: echo " see you next session "
+...
+        run: |
+    echo "First output"
+    echo "Second output"
+        
         
       
   
